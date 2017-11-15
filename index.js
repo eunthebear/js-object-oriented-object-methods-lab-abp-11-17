@@ -7,7 +7,7 @@ class BoardMember {
 }
 
 class polishedBoardMember {
-  get veto() {
+  this.veto() {
     return 'No, I must disagree';
   }
 
