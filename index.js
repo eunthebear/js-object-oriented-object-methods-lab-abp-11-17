@@ -4,6 +4,9 @@ class BoardMember {
     this.homeState = homeState;
     this.training = training;
   }
+}
+
+class polishedBoardMember {
   get veto() {
     return 'No, I must disagree';
   }
