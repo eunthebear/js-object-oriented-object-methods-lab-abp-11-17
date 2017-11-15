@@ -3,7 +3,9 @@ class BoardMember {
     this.name = name;
     this.homeState = homeState;
     this.training = training;
-    this.veto() = 'No, I must disagree';
+    this.veto = function() {
+      return 'No, I must disagree';
+    };
   }
   get veto() {
     return 'No, I must disagree';
